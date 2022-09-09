@@ -1,0 +1,17 @@
+@use '../utils/' as u;
+
+.card {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: u.$clr-neutral-100;
+    padding: 1em;
+}
+
+.card--rounded {
+    border-radius: u.$rounding-primary;
+}
+
+.card--shadowed {
+    box-shadow: .5em .5rem 2rem u.$clr-neutral-150;
+}

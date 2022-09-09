@@ -1,0 +1,23 @@
+@use '../utils/' as u;
+
+.ff-primary {
+    font-family: u.$ff-primary;
+}
+
+.fs-primary {
+    font-size: u.$fs-primary;
+}
+
+.fs-paragraph {
+    font-size: u.$fs-paragraph;
+}
+
+.fw-700 {
+    font-weight: u.$fw-700; 
+    color: u.$clr-neutral-900;
+}
+
+.fw-400 {
+    font-weight: u.$fw-400;
+    color: u.$clr-neutral-200;
+}

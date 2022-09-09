@@ -1,5 +1,16 @@
-@use '../utils/variables' as v;
+@use '../utils/' as u;
 
 :root {
-    background-color: v.$clr-neutral-200;
+    background-color: u.$clr-primary;
 }
+
+body {
+    display: grid;
+    place-items: center;
+    line-height: 1.6;
+}
+
+p {
+    padding-bottom: 1.5rem;
+}
+

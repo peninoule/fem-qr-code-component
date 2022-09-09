@@ -3,6 +3,7 @@ $clr-primary: hsl(212, 45%, 89%);
 
 $clr-neutral-900: hsl(218, 44%, 22%);
 $clr-neutral-200: hsl(220, 15%, 55%);
+$clr-neutral-150: hsl(225, 4%, 80%);
 $clr-neutral-100: hsl(0, 0%, 100%);
 
 //font-family
@@ -13,4 +14,8 @@ $fw-400: 400;
 $fw-700: 700;
 
 //font-size
+$fs-primary: 1.5rem;
 $fs-paragraph: 15px;
+
+//rounding
+$rounding-primary: 3%

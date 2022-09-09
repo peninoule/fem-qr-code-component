@@ -1,0 +1,5 @@
+@use '../utils/' as u;
+
+.img--rounded {
+    border-radius: u.$rounding-primary;
+}
